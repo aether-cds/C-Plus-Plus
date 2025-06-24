@@ -1,3 +1,16 @@
+/*Person { name age gender }
+|
+|
+Employee {salary}
+|
+|
+Department { department }
+|    \            \
+|     \            \
+|      \            \
+Admin   Teacher       Others
+{Post}   {Subject}    {job}*/
+
 #include<iostream>
 using namespace std;
 class person{
