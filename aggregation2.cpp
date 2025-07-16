@@ -48,7 +48,7 @@ class college {
     public:
         void getCollege() {
             cout << "Enter college name: ";
-            cin >> clgName;
+            getline(cin, clgName)
             address.getAddress();
             adminDetails.getAdmin();
             cout << "Enter established year: ";
